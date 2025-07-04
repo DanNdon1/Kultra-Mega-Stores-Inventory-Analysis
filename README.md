@@ -71,5 +71,25 @@ FROM kms_Case_Study
 GROUP BY Product_Category
 ORDER BY Total_Sales DESC
 ```
-![](KMS_CS_Ans1.png)
+![](KMS_CS_Ans1.png) <br><br>
+
+### 2. What are the Top 3 and Bottom 3 regions in terms of sales? <br>
+```
+----- TOP 3 REGION IN TERMS OF SALES
+
+SELECT Top 3 Region, Round(SUM(Sales),2) AS Total_Sales
+FROM kms_Case_Study
+GROUP BY Region
+ORDER BY Total_Sales DESC
+
+-- -Bottom 3 regions by sales--
+
+SELECT Region, ROUND(SUM(Sales),2) AS TotalSales
+FROM KMS_Case_Study
+GROUP BY Region
+ORDER BY TotalSales ASC
+OFFSET 0 ROWS FETCH NEXT 3 ROWS ONLY
+```
+![](KMS_CS_Ans2.png)
+
 
