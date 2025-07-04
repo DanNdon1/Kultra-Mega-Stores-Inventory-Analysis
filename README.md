@@ -109,8 +109,8 @@ GROUP BY Customer_Name
 ORDER BY total_sales ASC
 ```
 ![](KMS_CS_Ans4.png)<br><br>
-### 
-5. KMS incurred the most shipping cost using which shipping method?
+
+### 5. KMS incurred the most shipping cost using which shipping method?
 
 
 ```
@@ -122,8 +122,28 @@ GROUP BY Ship_Mode
 ORDER BY Total_Shipping_Cost DESC
 -----ANS: KMS incurred the most shipping cost using delivery truck--
 ```
-![](KMS_CS_Ans6.png)<br><br>
+![](KMS_CS_Ans5.png)<br><br>
 
+## Case Scenario II
+
+### 6 most Valuble customers, products OR service they purchase
+
+```
+--------6a most Valuble customers 
+SELECT top 5 Row_ID, Customer_Name, ROUND(SUM(Sales),2) AS TotalSpent
+FROM KMS_Case_Study
+GROUP BY Row_ID, Customer_Name
+ORDER BY TotalSpent DESC
+
+----6b products OR service they purchase--------
+
+SELECT TOP 5 [Customer_Name], [Product_Name],
+ROUND(SUM(Sales),2) AS Total_Sales
+FROM KMS_Case_Study
+GROUP BY [Customer_Name], [Product_Name]
+ORDER BY Total_Sales DESC
+```
+![](KMS_CS_Ans6.png)<br><br>
 
 
 
