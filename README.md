@@ -188,4 +188,29 @@ JOIN [dbo].[Order_Status] r
 ON o.[Order_ID] = r.[Order_ID]
 WHERE r.Status = 'Returned'
 ```
-![](KMS_CS_Ans10.png)
+![](KMS_CS_Ans10.png)<br><br>
+
+### 11 If the delivery truck is the most economical but the slowest shipping method and Express Air is the fastest but the most expensive one, do you think the company appropriately spent shipping costs based on the Order Priority? Explain your answer <br>
+
+
+------ 11 If the delivery truck is the most economical but the slowest shipping method and Express Air is the fastest but the most expensive one, do you think the company appropriately spent shipping costs based on the Order Priority? Explain your answer
+
+```
+SELECT
+    [Order_Priority],
+    [Ship_Mode],
+    COUNT([Order_ID]) AS order_count,
+    Round(SUM(sales - profit),2) AS estimated_shipping_cost,
+    AVG(DATEDIFF(DAY, [Order_Date], [Ship_Date])) AS avg_ship_days
+FROM
+    KMS_Case_Study
+GROUP BY
+    [Order_Priority], [Ship_Mode]
+ORDER BY
+    [Order_Priority], [Ship_Mode] Desc
+
+---NO the company didnt spent shipping cost base on order priority, delivery trucks where used for some critical and high oder priority which may lead to delay of delivery and customers disatisfaction. EPRESS AIR mode ship mode was used for low and not specified order priority whichresult in unneccessary high cost. may lead to lost of profit and revenue.
+```
+![](KMS_CS_Ans11.png)<br>
+
+***NO. The company didnt spent shipping cost base on order priority, delivery trucks where used for some critical and high oder priority which may lead to delay of delivery and customers disatisfaction. EPRESS AIR mode ship mode was used for low and not specified order priority whichresult in unneccessary high cost. may lead to lost of profit and revenue.***
