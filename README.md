@@ -1,1 +1,56 @@
 # Kultra-Mega-Stores-Inventory-Analysis
+
+This project was completed as part of the Data Analysis Training Program by IncubatorHub under the Digital SkillUp Africa (DSA) initiative.
+It demonstrates the use of SQL and Excel to solve real-world business problems using historical sales and customer data from Kultra Mega Stores.
+The case study focuses on evaluating sales performance in the Abuja division between 2009 and 2012. As an aspiring Business Intelligence Analyst, I analyzed the data to uncover key insights, solve case scenarios, and provide actionable recommendations as part of my final training project.
+
+## Project Objectives
+**This project aimed to:** <br>
+- Analyze historical sales data for Kultra Mega Stores’ Abuja division (2009–2012)
+- Solve the given case scenarios using SQL-based analysis To:
+    - Identify top-performing product categories and customer segments.
+    - Evaluate order trends, profit margins, and shipping costs.
+    - Uncover additional insights and provide recommendations to the business manager for improving revenue. <br>
+## Tools /Technique Used
+- Microsoft Excel 2016 - EDA
+- SQL server, SSMS - Analysis & case scenario 
+
+## Dataset Description
+The dataset contains historical order records from Kultra Mega Stores' Abuja division covering the period 2009 to 2012. It includes details of product sales, customer segments, shipping details, and financial metrics. Each row represents a unique order transaction.<br>
+
+*Key columns in the dataset include:* <br>
+- Order Date – The date an order was placed.
+- Region – Geographical location of the order
+- Customer Segment – Type of customer ( Consumer, Corporate, Small Business).
+- Product Category & Sub-Category – The main and sub-group of the ordered product.
+- Product Name – The specific item sold.
+- Order Priority – Indicates the urgency (High, Medium, Low, Not Specified).
+- Sales – Total revenue generated from the order.
+- Quantity – Number of units sold.
+- Discount – Percentage discount applied to the order.
+- Profit – Net profit from the order.
+- Shipping Cost – Cost incurred for delivering the product. <br>
+This dataset enables analysis of sales trends, product performance, customer behavior, and operational efficiency<br>
+## Exploratory Data Analysis (EDA)
+The exploratory data analysis was conducted using SQL to uncover initial insights from the Kultra Mega Stores order dataset (2009–2012). The goal was to understand the structure, quality, and distribution of key business variables such as product categories, order trends, customer segments, and profit metrics. <br>
+
+**Key findings include:** <br>
+
+**Data Structure & Quality Checks:**<br>
+The dataset contains order-level data with fields such as Order Date, Product Category, Customer Segment, Profit, Sales, Shipping Cost, Region, and Order Priority. Basic cleaning revealed:<br>
+
+**Some rows had missing values or unspecified order priorities.**
+A few entries contained negative profits, possibly due to returns or high shipping costs.
+Inconsistent date formats (some with only the year) were also noted.<br>
+
+**Sales & Profit Overview:**<br>
+Total sales and profit are aggregated by year, category, and region.
+Some categories generated the highest revenue, while some Furniture items showed lower or negative profit margins.<br>
+
+**Customer Segmentation:**<br>
+Customers were segmented into Consumer, Corporate, and Home Office groups. Corporate clients contributed significantly to total sales. <br><br>
+
+
+
+ 
+  
