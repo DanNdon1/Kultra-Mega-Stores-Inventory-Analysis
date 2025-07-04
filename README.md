@@ -99,7 +99,17 @@ FROM KMS_Case_Study
 where region ='ontario' and Product_sub_category = 'Appliances'
 group by region
 ```
-![](KMS_CS_Ans3.png)
+![](KMS_CS_Ans3.png)<br><br>
+
+### 4. Advise the management of KMS on what to do to increase the revenue from the bottom 10 customers
+```
+SELECT TOP 10 Customer_Name, ROUND(SUM(sales),2) AS total_sales
+FROM KMS_Case_Study
+GROUP BY Customer_Name
+ORDER BY total_sales ASC
+```
+![](KMS_CS_Ans4.png)<br><br>
+
 
 
 
