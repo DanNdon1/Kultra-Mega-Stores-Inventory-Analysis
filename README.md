@@ -221,3 +221,20 @@ ORDER BY
 ![](KMS_CS_Ans11.png)<br>
 
 ***NO. The company didnt spent shipping cost base on order priority, delivery trucks where used for some critical and high oder priority which may lead to delay of delivery and customers disatisfaction. EPRESS AIR mode ship mode was used for low and not specified order priority whichresult in unneccessary high cost. may lead to lost of profit and revenue.***
+
+ ### Summary of Findings
+***The analysis of Kultra Mega Stores’ Abuja division (2009–2012) revealed the following key insights:*** <br>
+
+Top-performing categories included Office Supplies and Technology, contributing significantly to total revenue and profit.
+- Corporate and Small Business segments generated the highest sales volume, while individual customers contributed the least.
+
+- Shipping costs varied widely across ship modes, with Express Air being the most expensive and Delivery Truck the most economical.
+
+- Several orders showed negative profit, possibly due to high discounts or shipping costs.
+
+- Order priorities were inconsistently assigned, with some orders marked as “Not Specified,” potentially affecting service delivery.
+
+- Revenue was highly concentrated among a few top customers, while the bottom 10 customers contributed minimally.
+
+## Recomendation
+They company need to pay more attention to the shipping cost via order priority. The company didnt spent shipping cost base on order priority, delivery trucks where used for some critical and high oder priority which may lead to delay of delivery and customers disatisfaction. EPRESS AIR mode ship mode was used for low and not specified order priority whichresult in unneccessary high cost. may lead to lost of profit and revenue <br>
