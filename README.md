@@ -110,6 +110,13 @@ ORDER BY total_sales ASC
 ```
 ![](KMS_CS_Ans4.png)<br><br>
 
+#### Advise the management on what to do to increase the revenue from the bottom 10 customers <br>
+- Introduce special discounts, bundles, or loyalty rewards to encourage higher and repeat purchases.
+- Recommend profitable and complementary items based on their previous orders to increase order value.
+- Ensure they receive timely deliveries and excellent service—this can build trust and drive loyalty.
+- Reach out for feedback or run a quick survey to learn what might be limiting their spending, then act on it.<br><br>
+
+
 ### 5. KMS incurred the most shipping cost using which shipping method?
 
 
