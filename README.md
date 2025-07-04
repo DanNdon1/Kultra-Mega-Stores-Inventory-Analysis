@@ -145,7 +145,28 @@ ORDER BY Total_Sales DESC
 ```
 ![](KMS_CS_Ans6.png)<br><br>
 
+### Q7: Highest sales among Small Business customers <br>
+```
+----Q7: Highest sales among Small Business customers
 
+SELECT TOP 1 Customer_Name, ROUND(SUM(Sales),2) AS Total_Sales
+FROM KMS_Case_Study
+WHERE Customer_Segment = 'Small Business'
+GROUP BY Customer_Name
+ORDER BY Total_Sales DESC
+```
+![](KMS_CS_Ans7.png)<br><br>
+##$ Q8: Corporate Customer that placed the most number of orders in 2009 – 2012
+```
+----Q8: Corporate Customer that placed the most number of orders in 2009 – 2012
+
+SELECT top 1 Customer_Name, COUNT(Order_ID) AS Order_Count
+FROM KMS_Case_Study
+WHERE Customer_Segment = 'Corporate'
+GROUP BY Customer_Name
+ORDER BY Order_Count DESC
+```
+![](KMS_CS_Ans8.png)<br><br>
 
 
 
