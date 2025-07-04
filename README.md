@@ -167,6 +167,25 @@ GROUP BY Customer_Name
 ORDER BY Order_Count DESC
 ```
 ![](KMS_CS_Ans8.png)<br><br>
+### Q9: Most profitable consumer customer
+```
+---Q9: Most profitable consumer customer
 
+SELECT top 1 Customer_Name, round(SUM(Profit),2) AS Total_Profit
+FROM KMS_Case_Study
+WHERE Customer_Segment = 'Consumer'
+GROUP BY Customer_Name
+ORDER BY Total_Profit DESC
+```
+![](KMS_CS_Ans9.png)<br><br>
+### 10  customer  that returned items, and segment they belong to<br>
 
-
+```
+----10  customer  that returned items, and segment they belong to
+SELECT DISTINCT o.[Order_ID], o.[Customer_Name], o.[Customer_Segment]
+FROM [dbo].[KMS_Case_Study] o
+JOIN [dbo].[Order_Status] r
+ON o.[Order_ID] = r.[Order_ID]
+WHERE r.Status = 'Returned'
+```
+![](KMS_CS_Ans10.png)
