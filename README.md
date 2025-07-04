@@ -109,6 +109,22 @@ GROUP BY Customer_Name
 ORDER BY total_sales ASC
 ```
 ![](KMS_CS_Ans4.png)<br><br>
+### 
+5. KMS incurred the most shipping cost using which shipping method?
+
+
+```
+-----5. KMS incurred the most shipping cost using which shipping method?--
+
+SELECT top 1 Ship_Mode, ROUND(SUM(Shipping_Cost),2) AS Total_Shipping_Cost
+FROM KMS_Case_Study
+GROUP BY Ship_Mode
+ORDER BY Total_Shipping_Cost DESC
+-----ANS: KMS incurred the most shipping cost using delivery truck--
+```
+![](KMS_CS_Ans6.png)<br><br>
+
+
 
 
 
