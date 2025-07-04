@@ -50,7 +50,26 @@ Some categories generated the highest revenue, while some Furniture items showed
 **Customer Segmentation:**<br>
 Customers were segmented into Consumer, Corporate, and Home Office groups. Corporate clients contributed significantly to total sales. <br><br>
 
+## Analysis Tasks
+After completing the Exploratory Data Analysis (EDA), additional analysis was performed directly on the database using SQL within SQL Server Management Studio (SSMS) to address the following scenarios. 
 
+**A. first i created a database**
+```
+---- Database for the project: DSA_Capstone_Project_db
+create database DSA_Capstone_Project_db
+```
+**B. Insert the given tables** <br>
+- [dbo].[KMS_Case_Study]
+- [dbo].[Order_Status]
 
- 
-  
+## CASE SCANARIO I <br>
+
+### 1. Product category with the highest sales
+```
+SELECT Top 1 Product_Category, Round(SUM(Sales),2) AS Total_Sales
+FROM kms_Case_Study
+GROUP BY Product_Category
+ORDER BY Total_Sales DESC
+```
+![]()
+
