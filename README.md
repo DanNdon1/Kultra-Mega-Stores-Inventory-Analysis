@@ -90,6 +90,16 @@ GROUP BY Region
 ORDER BY TotalSales ASC
 OFFSET 0 ROWS FETCH NEXT 3 ROWS ONLY
 ```
-![](KMS_CS_Ans2.png)
+![](KMS_CS_Ans2.png) <br><br>
+### 3. The total sales of appliances in Ontario
+```
+----3. The total sales of appliances in Ontario----
+SELECT Region, ROUND(Sum(sales),2) as Total_Sales_Appliances
+FROM KMS_Case_Study
+where region ='ontario' and Product_sub_category = 'Appliances'
+group by region
+```
+![](KMS_CS_Ans3.png)
+
 
 
