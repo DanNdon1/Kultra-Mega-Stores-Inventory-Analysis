@@ -64,12 +64,12 @@ create database DSA_Capstone_Project_db
 
 ## CASE SCANARIO I <br>
 
-### 1. Product category with the highest sales
+### 1. Product category with the highest sales = Technology
 ```
 SELECT Top 1 Product_Category, Round(SUM(Sales),2) AS Total_Sales
 FROM kms_Case_Study
 GROUP BY Product_Category
 ORDER BY Total_Sales DESC
 ```
-![]()
+![](KMS_CS_Ans1.png)
 
