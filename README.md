@@ -237,4 +237,19 @@ Top-performing categories included Office Supplies and Technology, contributing 
 - Revenue was highly concentrated among a few top customers, while the bottom 10 customers contributed minimally.
 
 ## Recomendation
-They company need to pay more attention to the shipping cost via order priority. The company didnt spent shipping cost base on order priority, delivery trucks where used for some critical and high oder priority which may lead to delay of delivery and customers disatisfaction. EPRESS AIR mode ship mode was used for low and not specified order priority whichresult in unneccessary high cost. may lead to lost of profit and revenue <br>
+They company need to pay more attention to the shipping cost via order priority. The company didnt spent shipping cost base on order priority, delivery trucks where used for some critical and high oder priority which may lead to delay of delivery and customers disatisfaction. EPRESS AIR mode ship mode was used for low and not specified order priority whichresult in unneccessary high cost. may lead to lost of profit and revenue <br><br>
+
+
+> Click here to access the complete project CSV file and queries: (https://drive.google.com/drive/folders/1Jka71lzCMQHbW55RswQ6sx3Ik9pnt7zC?usp=drive_link) <br>
+## Acknowledgement
+I would like to express my sincere gratitude to God for the strength and wisdom to complete this project. My heartfelt thanks go to **IncubatorHub** and the **Digital Skillup Africa (DSA)** program, Pastor E. A. Aeboye, RCCG for the opportunity, training, and support throughout this journey. I am also thankful to my mentors, **Mr.Hameed Mushin, Mr. Temidayo Teedee Ayeni, Mr. Ayodele Femi** and  fellow learners, and the entire learning community for their invaluable guidance, encouragement, and feedback during the course of this Amazon Product Review Analysis project.<br>
+
+
+### Daniel Ndon <br>
+*#Aspiring Data Analyst* <br>
+*#Digital Skillup Africa (DSA)*<br>
+*#IncubatorHub*
+
+> This case study was completed as part of a data analysis learning project under the IncubatorHub - Digital Skillup Africa (DSA) program.
+
+
