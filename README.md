@@ -240,7 +240,7 @@ Top-performing categories included Office Supplies and Technology, contributing 
 They company need to pay more attention to the shipping cost via order priority. The company didnt spent shipping cost base on order priority, delivery trucks where used for some critical and high oder priority which may lead to delay of delivery and customers disatisfaction. EPRESS AIR mode ship mode was used for low and not specified order priority whichresult in unneccessary high cost. may lead to lost of profit and revenue <br><br>
 
 
-> Click here to access the complete project CSV file and queries: (https://drive.google.com/drive/folders/1fdaLjv86qrFwFnrBRYzH_VTcKxUmVe6L?usp=drive_link) <br><br>
+> Click here to access the complete project CSV file and queries: (https://drive.google.com/drive/folders/1iBNZsiGzqW9U9GAYGN5oE7C5v_ff4eDL?usp=drive_link) <br><br>
 ## Acknowledgement
 I would like to express my sincere gratitude to God for the strength and wisdom to complete this project. My heartfelt thanks go to **IncubatorHub** and the **Digital Skillup Africa (DSA)** program, Pastor E. A. Aeboye, RCCG for the opportunity, training, and support throughout this journey. I am also thankful to my mentors, **Mr.Hameed Mushin, Mr. Temidayo Teedee Ayeni, Mr. Ayodele Femi** and  fellow learners, and the entire learning community for their invaluable guidance, encouragement, and feedback during the course of this Amazon Product Review Analysis project.<br>
 
