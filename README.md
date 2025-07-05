@@ -1,4 +1,5 @@
-# Kultra-Mega-Stores-Inventory-Analysis
+# Kultra-Mega-Stores-Inventory-Analysis <br>
+![](DSA_achiement_bage1.png)
 
 This project was completed as part of the Data Analysis Training Program by IncubatorHub under the Digital SkillUp Africa (DSA) initiative.
 It demonstrates the use of SQL and Excel to solve real-world business problems using historical sales and customer data from Kultra Mega Stores.
