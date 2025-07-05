@@ -247,7 +247,7 @@ I would like to express my sincere gratitude to God for the strength and wisdom 
 
 
 ### Daniel Ndon <br>
-*#Aspiring Data Analyst* <br>
+*#Aspiring Data / business intelligence Analyst* <br>
 *#Digital Skillup Africa (DSA)*<br>
 *#IncubatorHub*
 
